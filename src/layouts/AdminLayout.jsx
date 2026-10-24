@@ -12,7 +12,7 @@ export default function AdminLayout() {
         <header className="md:hidden bg-white shadow p-4 flex justify-between items-center">
           <h1 className="font-bold">My Admin</h1>
           <button className="p-2 border rounded bg-gray-50" onClick={() => setSidebarOpen(!sidebarOpen)}>
-            🍔 Menu
+             Menu
           </button>
         </header>
         <main className="flex-1 overflow-y-auto p-6">
